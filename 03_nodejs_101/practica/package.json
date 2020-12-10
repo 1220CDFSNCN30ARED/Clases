@@ -1,0 +1,17 @@
+{
+  "name": "practica",
+  "version": "2.0.0",
+  "description": "este es mi primer proyecto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prueba"
+  ],
+  "author": "Santiago Argilla",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
