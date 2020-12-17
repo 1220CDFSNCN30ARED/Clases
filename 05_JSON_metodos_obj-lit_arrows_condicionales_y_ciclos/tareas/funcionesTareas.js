@@ -2,7 +2,7 @@ const fs = require('fs');
 
 let funcionesTareas = {
     archivo: 'tareas.json',
-    leerJSON: function() {
+    leerJ : function() {
         let stringTareas = fs.readFileSync(this.archivo ,'utf-8');
         return JSON.parse(stringTareas);
     },

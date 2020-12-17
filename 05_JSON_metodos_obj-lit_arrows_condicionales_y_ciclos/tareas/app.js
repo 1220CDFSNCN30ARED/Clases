@@ -63,6 +63,10 @@ switch (accion) {
     case 'incompletas':
         funcionesTareas.tareasIncompletas();
         break;
+
+    case 'crear':
+        funcionesTareas.crearTarea(process.argv[3]);
+        break;
     default:
         console.log('Ingrese un comando, please!');
         break;
