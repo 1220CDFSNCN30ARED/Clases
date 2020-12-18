@@ -57,7 +57,7 @@ let funcionesTareas =  require('./funcionesTareas');
 let accion = process.argv[2];
 
 switch (accion) {
-    case 'todas':
+    case 'listar':
         funcionesTareas.todasLasTareas();
         break;
     case 'incompletas':
@@ -67,6 +67,7 @@ switch (accion) {
     case 'crear':
         funcionesTareas.crearTarea(process.argv[3]);
         break;
+        
     default:
         console.log('Ingrese un comando, please!');
         break;

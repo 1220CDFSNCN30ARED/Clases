@@ -2,26 +2,34 @@ const fs = require('fs');
 
 let funcionesTareas = {
     archivo: 'tareas.json',
-    leerJ : function() {
+    leerJSON: function() {
         let stringTareas = fs.readFileSync(this.archivo ,'utf-8');
         return JSON.parse(stringTareas);
     },
     todasLasTareas: function(){
         let tareas = this.leerJSON();
-        console.log('Mostrado todas las tareas')
+
+        console.log();    
+        console.log('Listado de tareas');
+        console.log('----------------');
+
         for (let i=0; i < tareas.length ; i++){
-            console.log(tareas[i].titulo + ' - ' + tareas[i].estado);
+            console.log(i+1 +'. ' + tareas[i].titulo + ' - ' + tareas[i].estado);
         }
+
     },
     tareasIncompletas: function() {
         let tareas = this.leerJSON();
+        console.log();
         console.log('Mostrado tareas incompletas')
+        console.log('---------------------------');
         for (let i=0; i < tareas.length ; i++){
             if(tareas[i].estado != 'completado' ){
-                console.log(tareas[i].titulo + ' - ' + tareas[i].estado);
+                console.log(i+1 +'. ' + tareas[i].titulo + ' -> ' + tareas[i].estado);
             }
         }
-    }
+    },
+
 
 };
 
