@@ -1,0 +1,26 @@
+[
+ {
+  "titulo": "Comprar verduras",
+  "estado": "completado"
+ },
+ {
+  "titulo": "Comprar jamon",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "Comprar asado",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "Comprar mandarinas",
+  "estado": "pendiente"
+ },
+ {
+  "titulo": "Saber Js",
+  "estado": "en proceso"
+ },
+ {
+  "titulo": "una tarea nueva",
+  "estado": "pendiente"
+ }
+]
