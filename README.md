@@ -10,7 +10,13 @@
 - Introducción a NodeJs
 
 ## Clase 4
-- Repaso Js
+- Variables
+- Tipos de Datos
+- Operadores
+- Funciones
+- Condicionales
+- Arrays
+- Metodos de Arrays I
 
 ## Clase 5
  - JSON 
@@ -20,3 +26,12 @@
  - Condicionales 
  - Ciclos
 
+## Clase 6
+- Callbacks
+- Métodos de Array II
+- Date
+- Destructuring
+- Spread Operator
+
+## Clase 7
+- GIT
