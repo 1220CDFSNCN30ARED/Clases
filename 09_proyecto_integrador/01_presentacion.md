@@ -1,16 +1,14 @@
 # Proyecto Integrador
 
-
-
 ## Que vamos a hacer?
 
 [Video](https://www.youtube.com/watch?v=DTiwt5Hugi0)
 
-## Resumen Sprints
-[PDF](02_resumen_sprints.pdf)
-
 ## Equipos
 [PDf](03_equipos.pdf)
+
+## Resumen Sprints
+[PDF](02_resumen_sprints.pdf)
 
 ## Resumen Entregables
 [PDF](04_resumen_de_entregables.pdf)
