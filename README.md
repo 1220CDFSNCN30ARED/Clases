@@ -35,3 +35,10 @@
 
 ## Clase 7
 - GIT
+
+## Claso 8
+- Agile y Scrum
+
+
+## Clase9
+- Lanzamiento proyecto intregrador
