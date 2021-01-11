@@ -5,8 +5,8 @@ let autos = [
         color:'azul',
         anio:2019,
         km:200,
-        precio:100000,
-        cuotas:14,
+        precio:'150000',
+        cuotas:'12',
         patente: 'APL123',
         vendido:false
     },
@@ -16,8 +16,8 @@ let autos = [
         color:'Blanco',
         anio:2019,
         km:0,
-        precio:100000,
-        cuotas:14,
+        precio:'100000',
+        cuotas:'14',
         patente:'JJK116',
         vendido:false
     }
