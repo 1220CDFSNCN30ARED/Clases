@@ -8,14 +8,19 @@
 ## Presentación
 [Introducción a servidores](Introducción%20a%20servidores.pdf)
 
-
 ## Express
 - ¿Para usar Express en nuestra aplicación qué debemos hacer primero?
-- ¿Cómo se suele inicializar una app con Express?
-- Si queremos levantar el servidor de una app de Express ¿Qué método debemos usar?
+
+```
+npm init -y
+npm install express --save
+```
+- ¿Cómo se suele inicializar una app con Express? Ver archivo [app](ejercitacion/app.js)
+- Si queremos levantar el servidor de una app de Express ¿Qué método debemos usar? 
+  app.listen()
 
 ## Micro Desafio 1
-Paso ILevantar un servidor web con Express que responda al puerto 3030.
+Paso levantar un servidor web con Express que responda al puerto 3030. 
 
 ## Estructura base de un proyecto
 
