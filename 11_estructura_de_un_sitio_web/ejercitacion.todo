@@ -1,0 +1,76 @@
+Micro desafio 1:
+☐ Levantamos en nuestro IDE el proyecto de Express realizado en el apartado Proyecto en Playground según la estructura ya vista
+    -node_modules
+    -public
+        -images
+    -views
+        -home.html
+    -app.js
+    -package.json
+
+Micro desafio 2:
+☐ Hacer el archivo home.html deberá tener como mínimo las siguientes secciones:
+    ☐ header
+    ☐ main
+    ☐ footer
+
+    En header: 
+        Tendremos que maquetar
+        ☐ Logo
+        ☐ Lugar para poner la barra de búsqueda
+        ☐ Comprá en cuotas y sin tarjeta de crédito
+        ☐ Barra de navegación que posea las siguientes opciones:
+            ☐ Ofertas
+            ☐ Tiendas Oficiales
+            ☐ Vender
+            ☐ Ayuda
+            ☐ Creá tu cuenta
+            ☐ Ingresá
+            ☐ Mis compras
+            
+    En Main (Productos):
+        Tendremos dos secciones y en cada una de ellas mostraremos la siguiente información
+        ☐ Sección: Basado en tu última visita
+            ☐ imagen de la cafetera
+            ☐ $6.770
+            ☐ 40% OFF
+            ☐ Cafetera Moulinex
+
+            ☐ imagen de MacBook
+            ☐ $230.000
+            ☐ 20% off
+            ☐ MacBook Pro 2019
+
+            ☐ imagen del Samsung Galaxy
+            ☐ $70.500
+            ☐ 10% off
+            ☐ Samsung Galaxy S10
+
+            ☐ imagen del SmartTv
+            ☐ $23.200
+            ☐ 5% off
+            ☐ SmartTv Samsung 43"
+
+        ☐ Sección de Ofertas
+            ☐ imagen de la cafetera
+            ☐ $6.770
+            ☐ 40% off
+            ☐ Cafetera Moulinex
+
+            ☐ imagen de MacBook
+            ☐ $230.000
+            ☐ 20% off
+            ☐ MacBook Pro 2019 
+
+            ☐ imagen Samsung
+            ☐ $70.500
+            ☐ 10% off
+            ☐ Samsung Galaxy S10
+            
+            ☐ imagen SmarTv
+            ☐ $23.200
+            ☐ 5% off
+            ☐ SmartTv Samsung 43"
+
+
+
