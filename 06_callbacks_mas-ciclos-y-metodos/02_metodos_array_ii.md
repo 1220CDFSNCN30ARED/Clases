@@ -15,14 +15,26 @@ let elDoble = numeros.map(function(num){
 Recorre el array y filtra los elementos según una condición que exista en el callback. 
 
 ```js
-var edades = [22, 8, 17, 14, 30];
-var mayores = edades.filter(function(edad){
-   return edad > 18;
+var edades = [22, 18, 17, 14, 30];
+var el_de_8 = edades.find(function(edad){
+   return edad == 8;
 });
 
-console.log(mayores); // [22, 30]
-
+console.log(el_de_8); // [22, 30]
 ```
+
+
+## .find()
+Recorre el array devuelve la primera ocurrencia. 
+
+```js
+var edades = [22, 8, 17, 14, 30];
+var mayores = edades.find(function(edad){
+   return edad == 8;
+});
+
+
+
 
 ## .reduce()
 Recibe un callback que se va a ejecutar sobre cada elemento del array. 

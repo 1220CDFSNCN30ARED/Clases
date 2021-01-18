@@ -207,7 +207,7 @@ const concesionaria = {
       return persona.capacidadDePagoTotal > auto.precio && persona.capacidadDePagoEnCuotas > cuota;
     },
     autosQuePuedeComprar(persona){
-       return this.autos.filter(auto => this.puedeComprar(auto,persona))
+       return this.autosParaLaVenta().filter(auto => this.puedeComprar(auto,persona))
     }
 };
 
