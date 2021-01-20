@@ -32,8 +32,7 @@ var edades = [22, 8, 17, 14, 30];
 var mayores = edades.find(function(edad){
    return edad == 8;
 });
-
-
+```
 
 
 ## .reduce()
