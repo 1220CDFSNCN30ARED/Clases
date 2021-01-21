@@ -116,5 +116,5 @@ h2.subtitulo { color: yellow }
 ul#lista li { text-align: center }
 ```
 
-
+****
 >El CSS siempre va a priorizar a los selectores más específicos para aplicar los estilos.

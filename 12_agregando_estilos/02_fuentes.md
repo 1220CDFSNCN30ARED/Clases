@@ -28,7 +28,7 @@ p {
 Define el peso de la tipografía. Recibe los valores bold, lighter, normal, 100, 200 etc
 ```css
 p {
-  font-weight: 500;
+  font-weight:700;
 }
 ```
 
