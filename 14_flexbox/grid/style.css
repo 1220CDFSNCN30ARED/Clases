@@ -1,0 +1,88 @@
+/* normalize */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html,body {
+    height: 100vh;
+}
+
+/* Solo para que se vean en el ej */
+.container {
+    background-color: blue;
+
+}
+.row > div {
+    border:dotted 1px black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+.col {
+    background-color: chartreuse;
+}
+
+/* Mobile */
+.container {
+   width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col {
+    flex-basis: 100%;
+    /* gutter */
+    margin:10px;
+}
+
+/* Tablets */
+@media (min-width: 460px){
+    .col {
+        flex:1;
+    }
+    .col.cuadruple_sm {
+        flex: 4;
+    }
+    .col.triple_sm {
+        flex: 3;
+    }
+    .col.doble_sm {
+        flex: 2;
+    }
+}
+
+@media (min-width: 768px){
+
+  .col.cuadruple_md {
+    flex: 4;
+  }
+  .col.triple_md {
+    flex: 3;
+  }
+  .col.doble_md {
+    flex: 2;
+  }
+}
+
+
+/* Desktop */
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .col.cuadruple_lg {
+        flex: 4;
+    }
+    .col.triple_lg {
+        flex: 3;
+    }
+    .col.doble_lg {
+        flex: 2;
+    }
+}
