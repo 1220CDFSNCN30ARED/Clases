@@ -1,0 +1,41 @@
+Desafio 1:
+    ☐ crear register.html
+    ☐ agregar la etiqueta <form></form>
+    ☐ Analizamos que controles vamos a usar:
+        ☐ label (no olvidar for y id).
+        ☐ input
+        ☐ radiobutton
+        ☐ checkbox
+        ☐ button
+        ☐ file input
+    ☐ vincular navegacion con regiter.html
+    Campos del form:
+        ☐ Nombre y apellido
+        ☐ Nombre de usuari@
+        ☐ Fecha de nacimiento
+        ☐ Domicilio
+        ☐ Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)
+        ☐ Categorías de interés (puede elegir más de una)
+                Electro
+                Moda
+                Hogar
+                Juguetería
+                Vida sana
+        ☐ Foto de usuario
+        ☐ Contraseña
+        ☐ Confirmar contraseña
+        ☐ Botón de enviar que nos lleve a la página principal
+        ☐ Botón de borrar todos los datos del formulario
+
+
+Desafio 2:
+    ☐ crear login.html
+    ☐ agregar la etiqueta <form></form>
+    Analizamos que controles vamos a usar:
+        ☐ input
+        ☐ button
+        ☐ vincular navegacion con login.html
+    Campos del form:
+        ☐ Nombre de usuari@
+        ☐ Contraseña
+        ☐ Botón de enviar que nos lleve a la página principal
