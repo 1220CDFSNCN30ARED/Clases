@@ -1,7 +1,6 @@
 # Formularios
 
 # Objetivos
-
 - Configuración de los mensajes de error
 - Formulario de registro o login
 - Agregar algún contenido extra sobre accesibilidad
@@ -82,7 +81,6 @@ Nos permite generar un botón. Con la propiedad type definimos el tipo.
 <form action="" method="">
     <label for="usuario">Ingrese el usuario:</label>
     <input type="text" name="usuario">
-
     <button type="reset">Cancelar</button>
     <button type="submit">Enviar</button>
 </form>
@@ -186,6 +184,8 @@ div::after {
 }
 ```
 
-
 # Desafio 1 y 2
 [Ver TODO](desafios.todo)
+
+## Validaciones
+[Link](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
