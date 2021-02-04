@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <style>
+        article {
+            margin-top: 40px;
+            margin-left: 80px;
+        }
+        div {
+            height: 100px;
+            position: relative;
+        }
+        .rojo {
+            background-color: red;
+        }
+        .verde {
+            background-color: green;
+        }
+        .amarillo {
+            background-color: yellow;
+        }
+
+        .desplazado {
+            top:30px;
+            left: 20%;
+        }
+        .absoluto {
+            position: absolute !important;
+            width: 100%;
+        }
+        .arriba {
+            z-index: 100;
+        }
+
+        button {
+            background-color: #eaeaea;
+            color: #000;
+            transition: background-color 450ms, color 0.5s;
+        }
+
+        button:hover {
+            background-color: #1a73e8;
+            color: #fff
+        }
+        
+    </style>
+</head>
+<body>
+    <article>
+        <div class="rojo">1</div>
+        <div class="verde desplazado absoluto">2</div>
+        <div class="amarillo">3</div>
+        <button>
+            hola chicos
+        </button>
+    </article>
+</body>
+</html>
