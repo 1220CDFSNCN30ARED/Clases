@@ -94,7 +94,7 @@ button {
 button {
     background-color: #eaeaea;
 	color: #000;
-	transition: background-color 0.5s, color 0.5s;
+	transition: background-color 450ms, color 0.5s;
 }
 
 
