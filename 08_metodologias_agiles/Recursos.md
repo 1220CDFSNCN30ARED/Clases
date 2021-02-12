@@ -7,3 +7,5 @@ El Manifesto Agile surgió de una reunión encabezada por grandes líderes de eq
 ## Daily Meetings
 
 [Video](https://www.youtube.com/watch?v=16IoziutCZs)
+
+
