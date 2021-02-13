@@ -3,7 +3,7 @@
 ## Objetivos 
 
 Repasar los primeros comando que utilizamos para crear un proyecto hasta la creacion de la arquitectura mvc:
-ex- npm init -y
+- npm init -y
 - package.json (generación y la configuración del mismo)
 - npm install express --save
 - Repaso de la carpeta node-modules
