@@ -1,9 +1,14 @@
 ## TO-DO List
 
+npm i ejs 
+setear EJS
+res.render
+
+
 1- Generar el proyecto con express generator
 2- Crear las vistas
 3- Agregar imagenes
 4- Crear controlador
-5- Vistas parciales
+5- Vistas parciales => include()
 6- Rutas parametrizadas
-7- <% %> Tags EJS
+7- <%= %> <%- %> Tags EJS
