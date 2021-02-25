@@ -9,12 +9,13 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 const controller = {
 	// Root - Show all products
 	index: (req, res) => {
-		// Do the magic
+		res.render('product',{products});
 	},
 
 	// Detail - Detail from one product
 	detail: (req, res) => {
-		// Do the magic
+		let product = products.find(product => product.id == req.params.id);
+		res.render('detail',{product,toThousand})
 	},
 
 	// Create - Form to create
@@ -29,7 +30,8 @@ const controller = {
 
 	// Update - Form to edit
 	edit: (req, res) => {
-		// Do the magic
+		let productToEdit = products.find(product => product.id == req.params.id);
+		res.render('product-edit-form',{productToEdit});
 	},
 	// Update - Method to update
 	update: (req, res) => {
