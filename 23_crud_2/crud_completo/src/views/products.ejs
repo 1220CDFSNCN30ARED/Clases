@@ -1,0 +1,47 @@
+«<!DOCTYPE html>
+<html lang="es">
+<!-- Include Head -->
+<%- include('partials/head', {title: 'Todos los productos'}) %>
+<body>
+	<!-- Header -->
+	<%- include('partials/headerNavbar') %>
+	<!-- /Header -->
+
+	<!-- todos los productos -->
+	<div class="container products-wrapper">
+		<div class="row">
+			<div class="col-12 d-flex justify-content-between">
+				<h2 class="products-title">Todos los productos</h2>
+				<a href="/products/create" class="action-button edit">CREAR PRODUCTO</a>
+			</div>
+			<% for (product of visited) { 
+				let finalPrice=product.discount ? (product.price - product.price * product.discount / 100).toFixed(0) : product.price; 
+			%>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<section class="product-box">
+						<a href="/products/detail/<%= product.id %> ">
+							<figure class="product-box_image">
+								<img src="/images/products/<%= product.image %> " alt="<%= product.name %>">
+							</figure>
+							<article class="product-box_data">
+								<h2>$<%= toThousand(finalPrice) %>
+								</h2>
+								<%- product.discount ? `<span>${product.discount}% OFF</span>` : '' %>
+									<p>
+										<%= product.name %>
+									</p>
+									<i class="fas fa-truck"></i>
+							</article>
+						</a>
+					</section>
+				</div>
+			<% } %>		
+		</div>
+	</div>
+	<!-- /todos los productos -->
+
+	<!-- footer -->
+	<%- include('partials/footer') %>
+	<!-- /footer -->
+</body>	
+</html>

@@ -25,6 +25,7 @@ const controller = {
 	
 	// Create -  Method to store
 	store: (req, res) => {
+		// aca empieza la magia
 		res.send('Producto Guardado');
 	},
 
