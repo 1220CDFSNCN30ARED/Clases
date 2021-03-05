@@ -7,6 +7,5 @@
 4. Estimar las tareas identificadas, sin importar si se realizarán o no en la clase.
 5. Seleccionar una o más tareas, según la estimación anterior, para poder realizarla durante la clase.
 
-
 ## A laburar!!!
 Trabajamos sobre el sprint 4
