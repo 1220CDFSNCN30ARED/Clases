@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Page</title>
+	<style>
+		div {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<form action="/" method="POST">
+		<div>
+			<label for="">Ingrese su nombre</label>
+			<input type="text" name="name">
+		</div>
+		<div>
+			<label for="">Seleccione un color</label>
+			<select name="color">
+				<option value="">Elegí un color</option>
+				<option value="yellow">Amarillo</option>
+				<option value="blue">Azul</option>
+				<option value="red">Rojo</option>
+				<option value="green">Verde</option>
+			</select>
+		</div>
+		<div>
+			<label for="">Ingrese su email</label>
+			<input type="text" name="email">
+		</div>
+		<div>
+			<label for="">Ingrese su edad</label>
+			<input type="text" name="age">
+		</div>
+		<div>
+			<label for="">Recordar color</label>
+			<input type="checkbox" name="recordar_color" id="">
+		</div>
+		<button type="submit">Enviar</button>
+	</form>
+</body>
+</html>

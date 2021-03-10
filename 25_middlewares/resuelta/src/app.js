@@ -5,8 +5,6 @@ const express = require('express');
 const logger = require('morgan');
 const path = require('path');
 
-const userLogs = require('./middlewares/userLogs');
-
 // ************ express() - (don't touch) ************
 const app = express();
 
@@ -17,9 +15,6 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(cookieParser());
 
-
-app.use(userLogs)
-
 // ************ Template Engine - (don't touch) ************
 app.set('view engine', 'ejs');
 app.set('views', './src/views'); // Seteo de la ubicación de la carpeta "views"
@@ -28,8 +23,27 @@ app.set('views', './src/views'); // Seteo de la ubicación de la carpeta "views"
 
 // ************ WRITE YOUR CODE FROM HERE ************
 // ************ Route System require and use() ************
-const mainRouter = require('./routes/main');
-app.use('/', mainRouter);
+// const mainRouter = require('./routes/main');
+function middleware1(req,res,next){
+  console.log('hola soy el middleware 1');
+  next();
+  console.log('la vuelta del 1');
+}
+function middleware2(req,res,next){
+  console.log('hola soy el middleware 2');
+  console.log('hola soy el middleware 2');
+  next();
+  console.log('la vuelta del 2');
+}
+ app.use('/',middleware1,middleware2, (req,res)=>{
+   console.log('Soy el bagon final');
+   res.send('listo')
+ });
+
+app.use('/otra',(req,res,next)=>{
+  res.send('soy la otra');
+})
+
 
 
 
