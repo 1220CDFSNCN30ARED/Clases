@@ -8,9 +8,8 @@ Micro desafío - Paso 1:
     Tras ingresar los datos y al dar clic en el botón de enviar debemos redireccionar alusuario a la misma página y que se muestre un texto que diga:
         Hola ​nombreUsuario​, elegiste el color: ​colorSelecionado​, tu email es:emailUsuario ​y tu edad es: ​edadUsuario
     Con Express Validator, debemos validar:
-        ☐ Los campos que son requeridos y, en caso de que no se ingresen, debemosmostrar un mensaje de error indicando que deben completarse.
+        ☐ Los campos que son requeridos y, en caso de que no se ingresen, debemos mostrar un mensaje de error indicando que deben completarse.
         ☐ En caso de que se ingrese la edad, debemos validar que sea un número, en casocontrario, mostrar el error.
-
 
 Micro desafío - Paso 2:
     ☐ Cuando se haga submit del formulario, debemos cambiar en el body el color delbackground-color al que el usuario seleccionó en el formulario y, además, debemos crearotra vista que también aplique el cambio del background-color en el body según seseleccionó y que se visualice el mensaje: nombreUsuario​, gracias por visitarnos.
