@@ -19,3 +19,4 @@ Se presentan algunas retros
 ## Trabajos para finalizar el sprint y consultas (60min)
 
 
+## Lectura objetivos Sprint 5
