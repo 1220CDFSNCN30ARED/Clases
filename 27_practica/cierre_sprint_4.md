@@ -13,7 +13,7 @@ Las preguntas a resolver en la retrospectiva serán:
 - Qué debemos mejorar?
 - Plan de acción, para el próximo sprint.
 
-## Pusta en Común (15min)
+## Puesta en Común (15min)
 Se presentan algunas retros
 
 ## Trabajos para finalizar el sprint y consultas (60min)
