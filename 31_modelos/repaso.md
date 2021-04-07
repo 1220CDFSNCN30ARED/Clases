@@ -50,9 +50,9 @@ Deberia quedar algo asi:
 ```js
 module.exports = {
   "development": {
-    "username": process.env.DB_USER,
-    "password": process.env.DB_PASS,
-    "database": process.env.DB_DATABASE,
+    "username": 'root',
+    "password": 'root',
+    "database": 'movies_db',
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
@@ -81,7 +81,7 @@ Acá les dejo como sería un modelo base
 module.exports = (sequelize, DataTypes) => {
     let alias = 'Movies';
     let cols = {
-         id: {
+        id: {
             type: dataTypes.INTEGER,
             primaryKey: true,
             autoIncrement: true
@@ -107,6 +107,7 @@ Pueden consultar los datatypes aca: [DataTypes](https://sequelize.org/master/man
 ### findAll()
 
 ```js
+const db = 
 db.Movies.findAll().then( respuesta =>{
     res.render('moviesList',{movies:respuesta})
 });
@@ -115,6 +116,8 @@ db.Movies.findAll().then( respuesta =>{
 ### findByPk()
 
 ```js
+const db = require('../database/models');
+
 db.Movies.findByPk(req.params.id).then(respuesta => {
     res.render('moviesDetail',{movie:respuesta})
 })
