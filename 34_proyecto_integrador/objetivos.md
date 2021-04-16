@@ -1,4 +1,5 @@
 # Proyecto Integrador - Sprint 6
+
 - Crear el Diagrama de base de datos,
 - El Script de creación de la BD
 - Configurar la conexión de nuestro backend con la BD usando sequelize
