@@ -38,6 +38,60 @@
 ## Claso 8
 - Agile y Scrum
 
-## Clase9
+## Clase 9
 - Lanzamiento proyecto intregrador
 
+## Clase 10
+- Introducción a servidores
+## Clase 11
+- Estructura de un sitio web
+## Clase 12
+- Estilos
+## Clase 13
+- Diseño Adaptativo
+## Clase 14
+- Flexbox
+## Clase 15
+- Fromularios
+## Clase 16
+- Organización de elementos
+## Clase 17
+- Deploy
+## Clase 18
+- Proyecto Integrador
+## Clase 19
+- MVC
+## Clase 20
+- Ejs
+## Clase 21
+- Repaso
+## Clase 22
+- CRUD 1
+## Clase 23
+- CRUD 2
+## Clase 24
+- Proyecto Integrador
+## Clase 25
+- Middlewares
+## Clase 26
+- Session y Cookies
+## Clase 27
+- Practica
+## Clase 28
+- Diseño de tablas
+## Clase 29
+- Manipulación de datos
+## Clase 30
+- Uniones y Funciones de agregación
+## Clase 31
+- Modelos
+## Clase 32
+- Manipulación de datos en DB
+## Clase 33
+- Relaciones y CRUD
+## Clase 34
+- Proyecto Integrador
+## Clase 35
+- Creación de APIs
+## Clase 36
+- Consumo de APIs
