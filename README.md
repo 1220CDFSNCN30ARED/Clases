@@ -95,3 +95,9 @@
 - Creación de APIs
 ## Clase 36
 - Consumo de APIs
+## Clase 37
+- Manipulando elementos con JS
+## Clase 38
+- Eventos con Js
+## Clase 39
+- Eventos en Formularios
