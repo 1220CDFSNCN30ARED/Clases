@@ -10,6 +10,32 @@ window.onload = function(){
 //------DESDE AQUÍ CONTINUE CON LAS VALIDACIONES DEL FORMULARIO -------//    
     let form = document.querySelector('.form');
     form.title.focus();
+
+    form.title.addEventListener('blur',function(e){
+        if(form.title.value == ""){
+            form.title.classList.add('is-invalid');
+            
+        } else {
+            form.title.classList.add('is-valid');
+            form.title.classList.remove('is-invalid');
+        }
+    })
+
+    form.rating.addEventListener('blur',function(e){
+        if(form.rating.value == ""){
+            // alert('completa el titulo')
+            // errors.push('completa el titulo');
+
+            form.rating.classList.add('is-invalid');
+            
+        } else {
+            form.rating.classList.remove('is-invalid');
+            form.rating.classList.add('is-valid');
+        }
+    })
+
+
+
     form.addEventListener('submit', (e) => {
         
         let errors = [];
