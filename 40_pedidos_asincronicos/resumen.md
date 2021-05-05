@@ -104,3 +104,5 @@ let carritoLocalStorage = JSON.parse(localStorage.carrito);
 - Para el front analizar los diferentes archivos que nos proveen. (html, js, css)
 - Primer paso en el archivo main.js debemos agregar el fetch que nos permita traernos los datos del endpoint del listado de películas, para mostrar los datos en el archivo home.html.
 - Segundo paso en el archivo formulario.js debemos agregar la lógica necesaria para mostrar los datos en el formulario.html y permitir que se pueda eliminar/crear/ modificar datos.
+
+- [momentjs](https://cdnjs.com/libraries/moment.js)
