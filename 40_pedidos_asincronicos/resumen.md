@@ -23,10 +23,15 @@ fetch("https://restcountries.eu/rest/v2/")
 ```
 ### Post
 ```js
+
+let data = {
+   nombre: "santi",
+   apellido:"argilla"
+}
 fetch("https://localhost:3001/movies",{
     method: 'POST',
     headers: {
-        Content-Type: 'application/json'
+        "Content-Type": 'application/json'
     },
     body: JSON.stringify(data)
 })
