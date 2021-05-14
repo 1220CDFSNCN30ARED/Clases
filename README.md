@@ -101,3 +101,11 @@
 - Eventos con Js
 ## Clase 39
 - Eventos en Formularios
+## Clase 40
+- Pedidos Asíncronos
+## Clase 41
+- PI Cierre Sprint 6
+## Clase 42
+- PI Lanzamiento Sprint 7
+## Clase 43
+- React 1
