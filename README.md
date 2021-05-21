@@ -108,5 +108,10 @@
 ## Clase 42
 - PI Lanzamiento Sprint 7
 ## Clase 43
-- React 1 ## Clase 43
-- React 1 
+- React 1 Creando componentes
+- 
+## Clase 44
+- React 2 Props
+
+## Clase 45
+- React 3 El ciclo de vida de los componentes
