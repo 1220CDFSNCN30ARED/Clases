@@ -7,9 +7,8 @@
 
 
 ## Ayudas
-
 ```
-npm install ‘react-router-dom’
+npm install react-router-dom
 ```
 
 ### Componentes mas utilizados de react-router-dom
@@ -70,7 +69,9 @@ import Contact from './components/Contact';
 
 
 function Componente (props){
-   const id = props.match.params.id
+   const id =  props.match.params.id;
+
+   fetch(`api/users/${props.match.params.id}`)
     return(
        <div></div>
    )
