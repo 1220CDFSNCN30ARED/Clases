@@ -13,7 +13,7 @@ function SearchMovies(){
 		{
 			"Title": "Brigada en acción",
 			"Year": "1977",
-			"Poster": "N/A"
+			"Poster": noPoster
 		},
 	];
 
