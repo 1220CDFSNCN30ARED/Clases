@@ -91,3 +91,9 @@ function Componente() {
 }
 export default Componente;
 ```
+
+
+## Ejercitación
+
+OMDB key: 1e5a7b6f
+[OMDb API](http://www.omdbapi.com/?i=tt3896198&apikey=1e5a7b6f)
