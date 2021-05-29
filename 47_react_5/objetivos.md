@@ -14,7 +14,7 @@
 ### useState
 
 ```js
-import { useState } from 'react';
+import React, { useState } from 'react';
 function Frutas (){
     const [listadoDeFrutas, setListadoDeFrutas] = useState(["Manzana", "Pera", "Banana"]);
     const agregarFrutas = () => setListadoDeFrutas([
@@ -76,7 +76,7 @@ useEffect(() => {
 ```js
 import { useRef } from 'react';
 
-let titulo = useRef();
+let elTitulo = useRef();
 
 function Componente() {
     cambiarColor = () => {
@@ -96,4 +96,5 @@ export default Componente;
 ## Ejercitación
 
 OMDB key: 1e5a7b6f
+
 [OMDb API](http://www.omdbapi.com/?i=tt3896198&apikey=1e5a7b6f)
