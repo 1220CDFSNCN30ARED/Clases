@@ -52,4 +52,4 @@ SELECT title, rating FROM movies WHERE title LIKE '%Harry Potter%';
 -- 2.- Mostrar a todos los actores cuyos nombres empiecen con Sam.
 SELECT * FROM actors WHERE first_name LIKE 'Sam%';
 -- Mostrar el título y fecha de creación de las películas que salieron entre el 2004 y 2008.
-SELECT title, release_date FROM movies WHERE YEAR(release_date) BETWEEN 2004  AND 2008;
+SELECT title, release_date FROM movies WHERE YEAR(release_date) BETWEEN 2004 AND 2008;
